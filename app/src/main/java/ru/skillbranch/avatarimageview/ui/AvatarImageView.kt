@@ -252,7 +252,7 @@ class AvatarImageView @JvmOverloads constructor(
         invalidate()
     }
 
-   /* private class SavedState() : BaseSavedState, Parcelable {
+    private class SavedState : BaseSavedState, Parcelable {
         var isAvatarMode: Boolean = true
         var borderWidth: Float = 0f
         var borderColor: Int = 0
@@ -279,5 +279,5 @@ class AvatarImageView @JvmOverloads constructor(
 
             override fun newArray(size: Int): Array<SavedState?>  = arrayOfNulls(size)
         }
-    }*/
+    }
 }
